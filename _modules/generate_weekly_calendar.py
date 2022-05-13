@@ -119,21 +119,26 @@ holidays = {
 }
 
 ### https://registrar.sa.ucsb.edu/calendars/calendars-deadlines/registration-pass-dates
+### Summer: https://summer.ucsb.edu/sites/default/files/documents/cheat%20sheet%202022_0.pdf
 admin_dates = {
-#(4, 22) : "Deadline to Drop Courses",
-#   (6, 3) : "Instruction Ends"
+    (6, 21) : "Instruction Begins (Session A)",
+    (7, 7) : "Deadline to Drop Courses (Session A)",
+    (7, 29) : "Instruction Ends (Session A)",
+    (8, 1) : "Instruction Begins (Session B)",
+    (8, 16) : "Deadline to Drop Courses (Session B)",
+    (9, 9) : "Instruction Ends (Session B)",
 }
 
-start_month = 3 # March
-start_monday = 28 # March 28
+start_month = 6
+start_monday = 20 # June 20
 start_week = 1
 exclude_weekends = False #True
 include_days_of_week = False # whether to include "Mon", "Tue" with the day
-end_month = 6 # 
-end_day = 10 # the last day of classes, Final Exams June 4 - 10
+end_month = 7 # 
+end_day = 29 # the last day of classes
 
 num_days = 7
-num_weeks = 11 # stop before this week
+num_weeks = 7 # stop before this week
 if exclude_weekends:
     num_days = 5
 
