@@ -1,23 +1,36 @@
 ---
-title: Basic Data Structures
+title: Week 2
+topic: Objects, Functions, and Expressions
 ---
+Apr 4
+: _Finish reading and review Chapter 02 in zyBooks._
+: _Complete the PAs and CAs._
+: _Test your understanding with the Reading Quiz._
+   : **10PM** ⏰  Due: **PA01**{: .label .label-orange }**PA02**{: .label .label-orange }
 
-Oct 5
-: [Linked Lists & Encapsulation](#)
-  : [3.1](#), [2.2](#), [2.3](#)
+Apr 5
+: 09:30am **Class**{: .label .label-purple }
+   : **10PM** ⏰  Due: **CA01**{: .label .label-blue }**CA02**{: .label .label-blue }
 
-Oct 6
-: **Section**{: .label .label-purple }[Linked Lists](#)
-  : [Solution](#)
+Apr 6
+: 09:00am **LA01**{: .label .label-green }_are expected to be done_
+   : **10PM** ⏰  Due: **LA01**{: .label .label-green }
 
-Oct 7
-: [Resizing Arrays](#)
-  : [2.4](#), [2.5](#)
+Apr 7
+: 09:30am **Class**{: .label .label-purple }
+   : **10PM** ⏰  Due: **LA02 Checkpoint**{: .label .label-green },see the ["Deadlines extended" note](https://ucsb-csw8.github.io/s22/announcements/)
 
-Oct 8
-: **Lab**{: .label .label-purple } [Resizing Arrays](#)
+Apr 8
+: _Begin reading next week’s chapter._
+: _Work through its PAs and CAs._
+: _Finish the Weekly reflection._
 
-Oct 9
-: [Runtime Analysis](#)
-  : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
-: **HW 2 due**{: .label .label-red }
+Apr 9
+: _Async activities_ ☝️ 
+
+Apr 10
+: _By the end of Sunday: Ideally, you should be finished with PAs for Chapter 3 and done with the CAs for its first 4-5 sections._
+: [](#)
+   : **10PM** ⏰  Due: **Reflection**{: .label .label-yellow }
+
+

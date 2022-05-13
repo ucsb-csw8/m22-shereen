@@ -1,23 +1,28 @@
 ---
-title: Introduction to Java
+title: Week 1
+topic: Introduction to Python 3
 ---
+Mar 28
+: [](#)
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Mar 29
+: 09:30am **Class**{: .label .label-purple }: First class of Spring 2022! ✨
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+Mar 30
+: **LA**{: .label .label-green } First lab sessions 🎊
+: **➡️**{: .label .label-yellow } Post team info on Piazza
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
+Mar 31
+: 09:30am **Class**{: .label .label-purple }
+   : **10PM** ⏰  Due: **LA01 Checkpoint**{: .label .label-green }
 
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
+Apr 1
+: [](#)
 
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+Apr 2
+: [](#)
+
+Apr 3
+: **➡️**{: .label .label-yellow } Submit **Welcome survey** on Gauchospace
+   : **10PM** ⏰  Due: **Welcome survey**{: .label .label-yellow }
+
