@@ -236,7 +236,7 @@ The slides and the recordings are linked on Gauchospace. Look for the playback i
 ### Do we have to download Python for this class?
 
 Yes. We will spend the first couple of weeks working within zyBooks and then we will ask you to [Download the latest version from python.org](https://www.python.org/)
-(see instructions [on this page]({{ site.url }}{{ site.baseurl }}/ref/ide/#step-1-go-to-pythonorg).
+(see instructions [on this page]({{ site.url }}{{ site.baseurl }}/ref/ide/#step-1-go-to-pythonorg)).
 
 We will be using IDLE that will be installed with Python as our Integrated Development Environment (IDE). 
 Check out the [How to install the Python Interpreter]({{ site.url }}{{ site.baseurl }}/ref/ide/#how-to-install-the-python-interpreter-on-a-windows-machine) guide.
@@ -245,9 +245,9 @@ Check out the [How to install the Python Interpreter]({{ site.url }}{{ site.base
 ### What version of Python do I need to download?
 
 Download the latest verion 
-(see instructions [on this page]({{ site.url }}{{ site.baseurl }}/ref/ide/#step-1-go-to-pythonorg).
+(see instructions [on this page]({{ site.url }}{{ site.baseurl }}/ref/ide/#step-1-go-to-pythonorg)).
 
-If you already have Python installed, check that you have at least **3.8**.
+If you already have Python installed, check that you have at least **version 3.8**.
 
 ---
 
