@@ -15,7 +15,10 @@ Artwork by `@allison_horst`
 # 🐛 Debugging scenarios and solutions
 {:.no_toc}
 
-## Quick debugging tips
+<a name="top"></a>
+
+# Quick debugging tips
+{:.no_toc}
 1. Read the error message and look at the line that it refers to.
     1. Sometimes the issue is at the line just **above** the line that was listed in the error.
     1. If enabled, pay close attention to the **syntax highlighting** in your editor, which can point at where the error might be happening.
@@ -23,10 +26,11 @@ Artwork by `@allison_horst`
 1. Go back to the instructions and carefully re-read them.
 1. Use [Python Tutor to visualize your code](https://pythontutor.com/visualize.html#mode=edit).
 1. Use the [Rubber Duck Debugging](https://rubberduckdebugging.com) to walk yourself through the logic of your code.
+1. If you are having trouble with your output not matching what is expected, use an online text comparison tool, e.g. <https://text-compare.com> or <https://contenttool.io/text-difference-checker>.
 
 ---
 
-## Table of contents
+# Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -34,7 +38,32 @@ Artwork by `@allison_horst`
 
 ---
 
-## EOF (end-of-file) errors
+## `AttributeError: '...' object has no attribute '...'`
+
+Example errors:
+* `AttributeError: 'int' object has no attribute 'isdigit'`
+* `AttributeError: 'list' object has no attribute 'split'`
+
+*   Example erroneous code:
+```py
+my_int = 42
+if my_int.isdigit():
+    my_float = float(my_int)
+```
+*   **Cause**: A variable of one type is trying to use a method from a different (incompatible) type.
+*   **Check**: verify the type of the object that is listed before the `.` in the `.method()` call.
+    * Either change it to the type that the method works with (see example)
+    * Use another method/solution that works with the original object type (e.g., for strings stored in a list, you might need to iterate through each element of a list and use `split()` on the string element
+
+*   Corrected line of code: 
+```py
+my_int = "42"
+if my_int.isdigit():
+    my_float = float(my_int)
+```
+
+
+## EOF (end-of-file) Errors
 
 ### `EOFError: EOF when reading a line`
 
@@ -60,6 +89,7 @@ while num_items:
     items.append(item)
 ```
 
+[Back to top](#top)
 
 ---
 
@@ -75,6 +105,8 @@ print('Hello, World'
 print("Hello, World")
 ```
 
+[Back to top](#top)
+
 ---
 
 ## `EOL while scanning string literal`
@@ -89,9 +121,11 @@ or
 print('Hello, World") # mismatched quotation marks
 ```
 
+[Back to top](#top)
+
 ---
 
-## Indentation Error
+## Indentation Errors
 ### `IndentationError: unexpected indent`
 *   Example erroneous code:
 ```py
@@ -104,6 +138,8 @@ print("Hello world!")
 print("Hello world!")
 print("What a nice day!")
 ```
+
+[Back to top](#top)
 
 ---
 
@@ -124,7 +160,78 @@ def print_hello():
     print("Hello!")
 ```
 
+[Back to top](#top)
+
 ---
+
+### `IndexError: ... index out of range`
+
+Example errors:
+* `IndexError: string index out of range`
+* `IndexError: list index out of range`
+
+* Example code that causes the error:
+
+```py
+my_str = ""
+print("The first symbol is", my_str[0])
+print("The last symbol is", my_str[-1])
+```
+
+* **Cause**: The string/list is being indexed at a location that does not exist.
+* **Check**: Print the length of the string/list to check its maximum index (remember that Python indexing starts at 0).
+
+* Correct code that won't cause the error: 
+
+```py
+my_str = ""
+if len(my_str) != 0: # my_str != ""
+    print("The first symbol is", my_str[0])
+    print("The last symbol is", my_str[-1])
+```
+
+[Back to top](#top)
+
+---
+
+# `KeyError: ...` with a dictionary
+
+This error occurs when working with dictionaries. The line above the error shows which line caused the incorrect retrieval.
+
+* Example erroneous code:
+
+```py
+month_names = {
+    "1": "January",
+    "2": "February",
+}
+print("First month is", month_names[1]) # KeyError: 1
+```
+
+Alternatively, you wouldn't get an error but would get an undesired output that displays `None` if using `.get()`:
+
+```py
+print("First month is", month_names.get(1)) # results in "First month is None"
+```
+
+*   **Cause**: This error occurrs when trying to retrieve a value using a key that doesn't exist in the dictionary. Possible causes:
+    * the dictionary does not store the correct key-value pairs (did you add all necessary items? what about the edge cases?)
+    * the key is stored / retrieved as an incorrect type (see the example)
+
+* Correct code (alternative options): 
+
+```py
+...
+print("First month is", month_names["1"])
+print("First month is", month_names.get("1"))
+print("First month is", month_names[str(1)])
+```
+
+[Back to top](#top)
+
+---
+
+# Name Errors
 
 ## `NameError: name '...' is not defined`
 
@@ -152,9 +259,11 @@ print(Hello, World)
 ```
 generates the same error (`NameError: name 'Hello' is not defined`), since Python is now looking for a variable called `Hello` - it doesn’t know that we just forgot to put quotation marks around the text.
 
+[Back to top](#top)
+
 ---
 
-### `NameError` with a dictionary
+## `NameError` with a dictionary
 
 *   `NameError: name 'A' is not defined`
 *   Example erroneous code:
@@ -170,9 +279,11 @@ dict1 = {"A":1, "B":2, "C":3}
 print(dict1["A"])
 ```
 
+[Back to top](#top)
+
 ---
 
-## Positional Arguments Error
+# Positional Arguments Errors
 
 Let's first look at the case where too many arguments were provided in the function call.
 In that case, the error would be something like: `print_name takes 0 positional arguments but 1 was given`.
@@ -227,8 +338,11 @@ if __name__ == '__main__':
   
 ```
 
+[Back to top](#top)
+
 ---
 
+# Syntax Errors
 
 ## `SyntaxError: invalid syntax`
 
@@ -250,6 +364,8 @@ print'Hello World
 print(Hello World) # see also NameError
 ```
 
+[Back to top](#top)
+
 ---
 
 ## `SyntaxError: unmatched ')'`
@@ -259,9 +375,11 @@ print(Hello World) # see also NameError
 print('Hello, World'))
 ```
 
+[Back to top](#top)
+
 ---
 
-## Type Error
+# Type Errors
 
 ### `TypeError: argument of type 'int' is not iterable`
 
@@ -279,6 +397,8 @@ sum(total)
 total = [42]
 sum(total)
 ```
+
+[Back to top](#top)
 
 ---
 
@@ -310,6 +430,8 @@ if "a" in val:
     print("Found it!")
 ```
 
+[Back to top](#top)
+
 ---
 
 ### `TypeError: can only concatenate str (not "int") to str`
@@ -326,6 +448,8 @@ print("I would like " + str(num) + " tacos please.") # proper string concatenati
 print("I would like", num, "tacos please.") # using print defaults
 print(f"I would like {num} tacos please.") # using f-strings
 ```
+
+[Back to top](#top)
 
 ---
 
@@ -350,6 +474,8 @@ len(42)
 len([42]) 
 ```
 
+[Back to top](#top)
+
 ---
 
 ### `TypeError: ... takes exactly one argument (... given)`
@@ -373,11 +499,37 @@ len(42, 33)
 ```py
 len([42, 33]) 
 ```
+[Back to top](#top)
 
 ---
 
+### `TypeError: unsupported operand type(s) for +: 'int' and 'list'`
 
-## `ValueError: invalid literal for int() with base 10`
+* Example erroneous code:
+
+```py
+nested_list = [[5, 10, 6], [7, 8, 9]]
+total_sum = sum(nested_list)
+```
+
+*   **Cause**: The error can occur when trying to sum up a nested list, instead of its individual elements.
+
+* Correct code: 
+
+```py
+nested_list = [[5, 10, 6], [7, 8, 9]]
+total_sum = 0
+for item in nested_list:
+    item_sum = sum(item)
+    total_sum += item_sum
+```
+
+
+[Back to top](#top)
+
+---
+
+# `ValueError: invalid literal for int() with base 10`
 *   Example erroneous code:
 ```py
 current_year = '1792.99'
@@ -394,6 +546,30 @@ current_year = int(current_year)
 print(current_year)
 ```
 
+[Back to top](#top)
+
+---
+
+# `ZeroDivisionError: division by zero`
+
+* Example erroneous code:
+```py
+print(1 / 0)
+# or
+my_list = []
+print("The average value of the list is", sum(my_list) / len(my_list))
+```
+*   **Cause**:  The denominator in a division is 0.
+
+*   Correct code: 
+```py
+my_list = []
+if my_list != []: # len(my_list) != 0
+    print("The average value of the list is", sum(my_list) / len(my_list))
+```
+
+
+[Back to top](#top)
 
 ---
 
@@ -423,7 +599,43 @@ if __name__ == '__main__':
     print_hello()
 ```
 
+[Back to top](#top)
+
 ---
+
+## Function returns None but a different value is needed
+
+* Example erroneous code: 
+
+```py
+def get_hello():
+    print("hello")
+
+if __name__ == '__main__':
+    print(get_hello())
+```
+
+* **Cause**: The function `get_hello()` does not return anything (it has no `return` statement) so when you call `print(get_hello())` you are printing its return value which is `None`. 
+* **Check**: Sometimes, this behavior can occur when your code has nested `if`/`elif` branches, which contain a `return` inside of them. If one or more of the conditions are not set up correctly, the correct return statement would not be triggered. 
+    * Verify the accuracy of the conditions, check the edge cases, especially with the `==` (e.g., is it supposed to be `<` or `<=`).
+    * Note what condition needs to fail for your code to return `None`. 
+    * Debug your code by adding print statements and/or add an `else: return 42` to see which branches get executed/skipped. 
+
+* Correct code: 
+
+```py
+def get_hello():
+    return "hello"
+
+if __name__ == '__main__':
+    print(get_hello())
+    assert get_hello() == "hello" # to check the return value
+```
+
+[Back to top](#top)
+
+---
+
 
 ## Logic Errors
 * Sometimes, we get a logic error, when the output does not match what we expect.
@@ -445,6 +657,8 @@ def get_largest(x,y):
     else: 
       return y
 ```
+
+[Back to top](#top)
 
 ---
 
@@ -468,28 +682,137 @@ if __name__ == '__main__':
     print(f"Circle has area {area(radius)} inches squared.")
 ``` 
 
----
-
-# Template
-
-### `Error: ...`
-
-This is a template for the error entries.
-
-* Example erroneous code:
-
-```py
-...
-```
-
-*   **Cause**: ...
-
-* Correct code: 
-```py
-...
-```
+[Back to top](#top)
 
 ---
+
+
+---
+---
+---
+
+# Common autograder error messages on Gradescope
+
+## `Your submission timed out. It took longer than 600 seconds to run.` 
+
+* **Cause**: you have an infinite `while` loop in your code. 
+* **Check**: Carefully look at the condition in the `while` and ask when/if it will ever become False. Check when/where you are updating variables in the condition - the loop will keep going until the condition becomes False, so if the variable is not updated _within_ the loop, you get an infinite loop.
+
+## `Test Failed: Check the name of your .py file: it is incorrect.`
+
+* **Cause**: you did not name your file according to the instructions.
+* We do not re-upload students' files: if _you_ would want to manually do something for all 280+ students in the class, please do not ask us to do it.
+
+## `Test Failed: Syntax error when importing ...`
+
+* **Cause**: Something in your file is causing a syntax error (could be as simple as incorrect indentation; see the SyntaxError examples listed above). 
+* **Check**: Run your code and examine the line that is causing an error.
+
+[Back to top](#top)
+
+---
+---
+---
+
+
+
+# Contribute
+
+If you would like to contribute another error or help us improve examples or explanations (or remove typos! :-)), you can do so by submitting a Pull Request (PR) via [this repo]({{ site.gh_edit_repository }}) or by submitting an [Issue there]({{ site.gh_edit_repository }}/issues).
+
+Below are the steps for how to contribute using the GitHub interface.
+
+## Prerequisites
+
+1. Create an account on <https://github.com/>
+1. Look up how to format text using Markdown (<https://www.markdownguide.org/cheat-sheet/>)
+1. Format the error and the exampe using Markdown - you can save them as a regular txt file.
+
+## Fork this repo
+
+This course website lives in a GitHub repository, which has a name corresponding to this quarter.
+
+We'll be referring to this course’s website as the `PROJECT_REPO` ([{{ site.gh_edit_repository }}]({{ site.gh_edit_repository }})) and the repository name as the `INITIAL_REPO_NAME`.
+
+Fork the `PROJECT_REPO` using the GitHub interface - use the "Fork" button in the upper-right corner of the repo. 
+* Follow the instructions on the screen.
+* We recommend adding `csw8-` as a prefix to the name of the repo to help you distinguish it in the list of your repositories.
+
+Note that **the _forked_ repo will produce a different URL** (i.e., link / web address) for each person who forked this repo. 
+We will refer to it as a `PROJECT_REPO_FORK`.
+
+The `PROJECT_REPO_FORK` URL will likely look like:
+```html
+https://github.com/YOUR_USER_NAME/csw8-INITIAL_REPO_NAME
+```
+
+
+## Make the changes
+
+You will need to make the changes to **your fork** (i.e., your `PROJECT_REPO_FORK`).
+
+### Step 1: Navigate to your fork
+In the browser, open up the `PROJECT_REPO_FORK`. (_Note that you need to open **your fork**_, not the original course repo.)
+* You were navigated there automatically, when you forked the repo.
+* Verify that in the top left corner, underneath the search bar, you see the name of your `PROJECT_REPO_FORK` with a _forked from [ucsb-csw8{{ site.baseurl }}]({{ site.gh_edit_repository }})_ right underneath it.
+
+### Step 2: Edit the file
+* Navigate to the `ref/` folder.
+* Find `debug.md` and click on it.
+* When the file opens up, you should see the "Edit this file" pencil icon ✏️  (next to the "Delete this file" trash icon).
+* GitHub will open its file editor where you can now add your edits. Use the template provided below if you are contributing an error we have not yet listed.
+* Remember to "Commit changes" to save your work.
+ 
+### Template 
+
+We attempt to alphabetize the errors, so please add the new entries to their appropriate location in the file. 
+
+    ### `Error: ...`
+
+    This is a template for the error entries.
+
+    * Example erroneous code:
+
+    ```py
+    #code
+    ```
+    * **Cause**: ...
+    * **Check**: ... 
+
+    * Correct code: 
+    ```py
+    #code
+    ```
+    
+    [Back to top](#top)
+
+    ---
+
+
+You are now ready to submit a Pull Request (PR) via the GitHub web interface.
+
+## Submit a Pull Request (PR)
+
+In order for your changes to be added to the main `PROJECT_REPO`, you need to issue a **Pull Request** (usually abbreviated as PR).
+
+Pull Requests (PRs) are typically issued through the GitHub web interface. 
+
+1. After committing your changes, click on the "Pull Requests" **tab** at the top (the second link after "Code" in your `PROJECT_FORK_REPO` page on GitHub).
+1. Click on the <span style="color:green">green "New Pull Request" button</span>.
+
+**Important**: if you are not seeing your changes below, make sure to select the "`compare across forks`" link and then set the `base` and `head` repositories and branches accordingly.
+* `base` repository should be the `PROJECT_REPO`
+* `head` repository should be the `PROJECT_REPO_FORK`
+
+Click on the <span style="color:green">green "Create pull request" button</span>, add a short description and an optional comment.
+* Do **_not_** uncheck the box ☒ `Allow edits by maintainers`
+* Finish your PR by clicking on the <span style="color:green">green "Create Pull Request" button</span>.
+
+Congratulations! 🏆
+
+We are looking forward to reviewing your contributions.
+
+[Back to top](#top)
 
 ---
 ---

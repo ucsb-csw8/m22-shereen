@@ -53,7 +53,7 @@ Getting started with Just the Class is simple.
     - `success.md` - make sure to change the **Roadmap** to align with your course calendar
         - can be omitted if you are short on time 
 
-* For the `ref/` folder, I recommend initially comitting the `goals.md`, since it's referenced in the Syllabus and `keyboard.md` (+ `debug`?); the rest of them can be added later, when they become relevant.
+* For the `ref/` folder, I recommend initially comitting the `goals.md`, since it's referenced in the Syllabus and `keyboard.md` (+ `debug`?); the `ide` shows them how to install Python and is part of the FAQ; the rest of them can be added later, when they become relevant.
     * `data-structures` - a comparison table for strings, lists, tuples and namedtuples, dictionaries
     * `debug` - a good one to release initially as well - contains common errors and troubleshooting tips
     * `goals` - a list of CSW8 learning goals/objectives

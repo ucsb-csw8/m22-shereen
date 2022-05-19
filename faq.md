@@ -83,7 +83,7 @@ We expect that you will be working on the breakout room activities during the la
 Remember to "Submit" your code in order to see that the automated tests are passing.
 
 Note that if you do not completely finish the breakout room lab or the checkpoint lab, you can still get credit for it: it needs to be completed and be correct before the hard deadline the week after the labs for that week are released.
-Thus, if a student misses the checkpoint deadline, but fully completes all those sections by the hard deadline, the checkpoint score will show up as 0, but the lab total will take care of that, since it will be at 100%.
+Thus, if a student misses the checkpoint deadline, but fully completes all those sections by the hard deadline, the _checkpoint score_ will show up as 0, but the _lab total_ will take care of that, since it will be at 100%.
 
 ---
 
@@ -233,14 +233,23 @@ The slides and the recordings are linked on Gauchospace. Look for the playback i
 
 
 
+### Do we have to download Python for this class?
 
-### Do we have to download python for this class?
-
-Yes. We will spend the first couple of weeks working within zyBooks and then we will ask you to [Download the latest version from python.org](https://www.python.org/).
+Yes. We will spend the first couple of weeks working within zyBooks and then we will ask you to [Download the latest version from python.org](https://www.python.org/)
+(see instructions [on this page]({{ site.url }}{{ site.baseurl }}/ref/ide/#step-1-go-to-pythonorg).
 
 We will be using IDLE that will be installed with Python as our Integrated Development Environment (IDE). 
-We'll provide more resources about it later in the course.
+Check out the [How to install the Python Interpreter]({{ site.url }}{{ site.baseurl }}/ref/ide/#how-to-install-the-python-interpreter-on-a-windows-machine) guide.
 
+
+### What version of Python do I need to download?
+
+Download the latest verion 
+(see instructions [on this page]({{ site.url }}{{ site.baseurl }}/ref/ide/#step-1-go-to-pythonorg).
+
+If you already have Python installed, check that you have at least **3.8**.
+
+---
 
 ### What will the reflection be like and how long do they take?
 
@@ -253,6 +262,9 @@ It's a low-stress way to take a look at the past week and the activities for the
 They will normally be posted on Gauchospace on Thursday, around 1pm.
 This quarter, we will administer them as a google form.
 
+### I cannot access the reflection form - the link it says I need permission to view the link.
+
+Check that you are logged-in using your UCSB account: switch which account you are using, since the reflection requires that you use your umail.
 
 ### Is the reflection graded on completion?
 Not quite.
@@ -261,7 +273,7 @@ While the reflections are intended as a learning tool for you, since you will re
 
 If you have nonsensical answers, we can give you a lower score for your submission.
 
-
+---
 
 ### How many quizzes will there be each week? 
 
