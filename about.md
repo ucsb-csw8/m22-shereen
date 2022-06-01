@@ -116,13 +116,13 @@ This class _has to be taken for a letter grade_. The College of Engineering does
 
 ### Course structure and deadlines
 
-<span style="color:green">Each week covers one chapter in zyBooks</span> (_Week 1 is the exception, the assignments for that week are due along with the assignments for Week 2_). Due each week (always, at <span style="color:green">**10 o’clock**</span>):
+<span style="color:green">Each week covers one chapter in zyBooks</span> (_Week 1 is the exception, the assignments for that week are due along with the assignments for Week 2_). Due each week (always, at <span style="color:green">**the same time**</span>):
 
-> **PA**{: .label .label-orange }(Participation Activities): due **before** the 1st class of the week <span style="color:green">Monday 10PM</span> 
+> **PA**{: .label .label-orange }(Participation Activities): due **before** the 1st class of the week <span style="color:green">Monday {{ site.due_time }}</span> 
 
-> **CA**{: .label .label-blue }(Challenge Activities): due **before** the labs <span style="color:green">Tuesday 10PM</span>
+> **CA**{: .label .label-blue }(Challenge Activities): due **before** the labs <span style="color:green">Tuesday {{ site.due_time }}</span>
 
-> **LA**{: .label .label-green }(Lab Activities): on <span style="color:green">Wednesday 10PM</span> (submit them before 9am to focus on the labs for the new week)
+> **LA**{: .label .label-green }(Lab Activities): on <span style="color:green">Wednesday {{ site.due_time }}</span> (submit them before 9am to focus on the labs for the new week)
 
 Deadlines for all activities are available on Gauchospace (and are listed on the [Calendar]({{site.url}}/{{site.baseurl}}/calendar)). 
 
@@ -144,7 +144,7 @@ You will be required to submit this form separately for all weeks in which you w
 
 ### Deadline extension for zyBook activities
 During the term, you can request **two 1-day extensions** for the weekly deadline of the **zyBook activities** (we can offer extension only for the zyBooks activities, not the quizzes, reflections, etc.). Do not contact us via the forum or the email, just [submit this form to request an extension](https://forms.gle/QQkXMfKswjDbCEi49) and select whether the extension is for the PAs, CAs, and/or LAs.
-* You need to submit this form **within a day of the respective 10pm** deadline.
+* You need to submit this form **within a day of the respective {{ site.due_time }}** deadline.
 * We will not accept retroactive extension requests for previous weeks.
 
 If your situation is more serious and requires a longer extension, you need to provide the **official documentation** and complete the steps described in the section below. 

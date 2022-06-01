@@ -22,7 +22,7 @@ See more information in the [respective FAQ explanation]({{site.url}}/{{site.bas
 
 Additionally, at the end of each week, you are asked to reflect on your learning journey that week and submit a **Reflection** linked on Gauchospace.
 
-All due times in our class are at **10PM Pacific time (22:00)**.
+All due times in our class are at **{{ site.due_time }} Pacific time**.
 
 [View the Roadmap]({{ site.url }}{{ site.baseurl }}/success#roadmap){: .btn .btn-blue }
 

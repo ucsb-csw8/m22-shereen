@@ -35,21 +35,21 @@ In our course, each week covers roughly 1 chapter, and we have the following cou
 
 Additionally, each week you are asked to reflect on your week and your learning by submitting a weekly **reflection**.
 
-All due times in our class are at **10PM Pacific time (22:00)**. Add the days/times as recurring events on your Calendar.
+All due times in our class are at **{{ site.due_time }} Pacific time**. Add the days/times as recurring events on your Calendar.
 
 ---
 
 | Day | Due | Recommended Activity |
 |---|-----|----------------------|
-| Mon | 10PM: PAs | **Async activity**: Read the book, and work on/finish PA in zybooks _before_ the first class meeting of the week; prepare/review the questions to ask. |
-| Tue | 10PM: CAs | **Class 1**: Synchronous activities. Join the class via Zoom and be prepared to ask questions or ask for clarifications and additional examples, and to work with your classmates. |
+| Mon | {{ site.due_time }}: PAs | **Async activity**: Read the book, and work on/finish PA in zybooks _before_ the first class meeting of the week; prepare/review the questions to ask. |
+| Tue | {{ site.due_time }}: CAs | **Class 1**: Synchronous activities. Join the class via Zoom and be prepared to ask questions or ask for clarifications and additional examples, and to work with your classmates. |
 |     |     | **Async activity**: Work on/finish related CAs and LAs _before_ the lab on Wed. |
-| Wed | 10PM: LAs | **Guided tutoring lab sessions**: in small groups, students work on the LA (starting and/or finishing), resolving any lingering questions, reviewing materials with mentors. Students have until _next week_ to finish/submit the LA. |
+| Wed | {{ site.due_time }}: LAs | **Guided tutoring lab sessions**: in small groups, students work on the LA (starting and/or finishing), resolving any lingering questions, reviewing materials with mentors. Students have until _next week_ to finish/submit the LA. |
 |     |     | **Async activity**: Work on/finish related CA and LA in zybooks |
-| Thu | 10PM: LA Checkpt    | **Class 2**: Synchronous activities. Join the class via Zoom and ask questions or ask for clarifications and additional examples and/or review the quiz questions. Be prepared to work with your classmates. |
+| Thu | {{ site.due_time }}: LA Checkpt    | **Class 2**: Synchronous activities. Join the class via Zoom and ask questions or ask for clarifications and additional examples and/or review the quiz questions. Be prepared to work with your classmates. |
 |     |     | **Async activity**: Review concepts, work on/finish related CA and LA |
 | Sat |     | **Async activity**: Finish the Weekly reflection - review the past week, reflect on your learning, provide feedback, note any lingering questions. |
-| Sun | 10PM: Reflection | **Async activity**: Read the book, review concepts, and work on/finish PA, CA, and LA |
+| Sun | {{ site.due_time }}: Reflection | **Async activity**: Read the book, review concepts, and work on/finish PA, CA, and LA |
 
 
 ✨ Pro Tip✨ : _**Do not try to complete all chapter sections in one sitting**_! We recommend spending **no more than 2 hours** in a row reading through the sections and completing the activities in zyBooks. Your brain will get tired and will need a break. Trust us: even your prof cannot meaningfully work through this material for more than 2 hours, so save yourself some time and allow for at least a 30-minute break between the study sessions. 
