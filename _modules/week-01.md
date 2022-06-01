@@ -1,28 +1,29 @@
 ---
 title: Week 1
-topic: Introduction to Python 3
+topic: Representing data (Variables, Expressions, and Types)
 ---
-Mar 28
+Jun 20
+: **Holiday (no classes)**{: .label .label-red }June 20 (Juneteenth)
+
 : [](#)
 
-Mar 29
-: 09:30am **Class**{: .label .label-purple }: First class of Spring 2022! ✨
+Jun 21
+: <p class="text-grey-dk-000 mb-0"><em>Instruction Begins (Session A)</em></p>
 
-Mar 30
-: **LA**{: .label .label-green } First lab sessions 🎊
-: **➡️**{: .label .label-yellow } Post team info on Piazza
-
-Mar 31
-: 09:30am **Class**{: .label .label-purple }
-   : **10PM** ⏰  Due: **LA01 Checkpoint**{: .label .label-green }
-
-Apr 1
 : [](#)
 
-Apr 2
+Jun 22
 : [](#)
 
-Apr 3
-: **➡️**{: .label .label-yellow } Submit **Welcome survey** on Gauchospace
-   : **10PM** ⏰  Due: **Welcome survey**{: .label .label-yellow }
+Jun 23
+: [](#)
+
+Jun 24
+: [](#)
+
+Jun 25
+: [](#)
+
+Jun 26
+: [](#)
 

@@ -85,28 +85,26 @@ topic = {
 }
 
 ### These notes are replaced with the specifics for each respective week below
+class_time = "09:30am"
+due_time = "10PM"
 due_dates = {
-    "Mon" : ": _Finish reading and review Chapter X in zyBooks._\n"
-            ": _Complete the PAs and CAs._\n"
-            ": _Test your understanding with the Reading Quiz._\n"
-#            ": [](#)\n"
-            "   : **10PM** ⏰  Due: **PA**{: .label .label-orange }",
-    "Tue" : ": 09:30am **Class**{: .label .label-purple }\n" 
-#            ": [](#)\n"
-            "   : **10PM** ⏰  Due: **CA**{: .label .label-blue }",
-    "Wed" : ": 09:00am **LA**{: .label .label-green }_are expected to be done_\n"
-#           ": [](#)\n"
-            "   : **10PM** ⏰  Due: **LA**{: .label .label-green }",
-    "Thu" : ": 09:30am **Class**{: .label .label-purple }\n"
-#            ": [](#)\n"
-            "   : **10PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }",
-    "Fri" : ": _Begin reading next week’s chapter._\n"
-            ": _Work through its PAs and CAs._\n"
-            ": _Finish the Weekly reflection._",
-    "Sat" : ": _Async activities_ ☝️ ", 
-    "Sun" : ": _By the end of Sunday: Ideally, you should be finished with PAs for Chapter Y and done with the CAs for its first 4-5 sections._\n"
-            ": [](#)\n"
-            "   : **10PM** ⏰  Due: **Reflection**{: .label .label-yellow }\n"
+    "Mon" : f": _Finish reading and review Chapter X in zyBooks._\n" +
+            f": _Complete the PAs and CAs._\n" +
+            f": _Test your understanding with the Reading Quiz._\n" +
+            f"   : **{due_time}** ⏰  Due: **PA**{{: .label .label-orange }}",
+    "Tue" : f": {class_time} **Class**{{: .label .label-purple }}\n" +
+            f"   : **{due_time}** ⏰  Due: **CA**{{: .label .label-blue }}",
+    "Wed" : f": {class_time} **Class**{{: .label .label-purple }}\n" +
+            f": 09:00am **LA**{{: .label .label-green }}_are expected to be done_\n" +
+            f"   : **{due_time}** ⏰  Due: **LA**{{: .label .label-green }}",
+    "Thu" : f": {class_time} **Class**{{: .label .label-purple }}\n" +
+            f"   : **{due_time}** ⏰  Due: **LA Checkpoint**{{: .label .label-green }}",
+    "Fri" : f": _Begin reading next week’s chapter._\n" +
+            f": _Work through its PAs and CAs._\n" +
+            f": _Finish the Weekly reflection._",
+    "Sat" : f": _Async activities_ ☝️ ", 
+    "Sun" : f": _By the end of Sunday: Ideally, you should be finished with PAs for Chapter Y and done with the CAs for its first 4-5 sections._\n" +
+            f"   : **{due_time}** ⏰  Due: **Reflection**{{: .label .label-yellow }}\n"
             
 
 }
@@ -175,15 +173,17 @@ while week < num_weeks: # loop through the weeks
                 last_week = str(week-1).zfill(2)
 #due_str = due_dates[days[day]].replace("PA", "PA"+this_week).replace("CA", "CA"+last_week).replace("LA", "LA"+last_week).replace("Chapter X", "Chapter "+this_week)
                 due_str = due_dates[days[day]]
-                if week == 9:
-                    due_str = due_str.replace(" and done with the CAs for its first 4-5 sections", "")
-                if week < 10:
+#if week == 5:
+#due_str = due_str.replace(" and done with the CAs for its first 4-5 sections", "")
+                if week < 6:
                     due_str = due_str.replace("Chapter Y", f"Chapter {int(this_week)+1}").replace("Start on PA", f"Start on **PA{int(this_week)+1:0>2}**")
-                else: # week 10
+                else: # last week of the term
 #due_str = due_str.replace("\n : _Finish CA{: .label .label-blue } + Start on PA{: .label .label-orange }_", "")
+                    due_str = due_str.replace(": _Begin reading next week’s chapter._\n", "")
+                    due_str = due_str.replace(": _Work through its PAs and CAs._\n", "")
                     due_str = due_str.replace("\n: _Finish the Weekly reflection._", "") # dont inlcude it, since there's one for the final project
                     due_str = due_str.replace("**CA**{: .label .label-blue }","" ) # there are none in Ch10 (Files)
-                    due_str = due_str.replace(": _By the end of Sunday: Ideally, you should be finished with PAs for Chapter Y and done with the CAs for its first 4-5 sections._", ": _By the end of Sunday: Ideally, you should be finished with LAs for Chapter 10, which are used in the **final project**._")
+                    due_str = due_str.replace(": _By the end of Sunday: Ideally, you should be finished with PAs for Chapter Y and done with the CAs for its first 4-5 sections._", "")
                 due_str = due_str.replace("**PA**", f"**PA{this_week}**").replace("**CA**", f"**CA{this_week}**").replace("**LA**", f"**LA{last_week}**").replace("Chapter X", "Chapter "+this_week)
                 due_str = due_str.replace("Finish CA", f"Finish **CA{this_week}**")
 
