@@ -164,7 +164,7 @@ def print_hello():
 
 ---
 
-### `IndexError: ... index out of range`
+# `IndexError: ... index out of range`
 
 Example errors:
 * `IndexError: string index out of range`
@@ -341,8 +341,155 @@ if __name__ == '__main__':
 [Back to top](#top)
 
 ---
+# `RecursionError: maximum recursion depth exceeded`
+
+* **Cause**: This error usually occurs due to an **infinite recursion**, which typically happens when there is ...
+    * <span style="color:red">no base case</span>
+    * <span style="color:red">an invalid base case</span>
+    * <span style="color:red">a missing base case</span>
+    * <span style="color:red">an incorrect recursive call</span>
+    * <span style="color:red">a missing `return`</span>
+
+* **Check**: The following actions suggest what you can check when debugging an infinite recursion - make sure to add `print()` statements to _each_ branch, so that you can trace _which case_ is being called and with _which arguments_. Check the cases in the provided order:
+    *  <span style="color:red">No base case</span>: 
+        - does the recursive **function definition** contain an `if` statement that compares if the **input parameter** is a **_specific value_**, which corresponds to the base case?
+        - do the instructions mention any specific value that can be turned into a base case? what action needs to happen in that case?
+        - Common base cases are typically: an empty list/string; a count/length of 0 or 1; a minimum/maximum allowed value; 
+    *  <span style="color:red">An invalid base case</span>: does the `if` statement compare the **input parameter** to the **correct value** of the **correct type**?
+    *  <span style="color:red">A missing base case</span>: 
+        - does there need to be another `if`/`elif` statement that should check if the **input parameter** corresponds to an _additional_ **correct value** of the **correct type** (remember the Fibbonacchi numbers example)? 
+        - Ask yourself: is there another case when the function _does not need to do any computation/processing_ (so that it can easily produce the answer)? what action needs to happen in that case?
+        - Common additional base cases: finding a match in a list/string; a single-element list/string
+    *  <span style="color:red">An incorrect recursive call</span>: 
+        - are the **arguments** in the recursive function call (_within the function itself_) being **reduced** / **increased** so that they **get closer to the value in the base case**? (use `print()` to verify/visualize their values)
+        - Plug-in **_the next simplest case_** that would occur immediately **_after the base case_** and check whether the recursive call correctly triggers the base case (e.g., if the base case is an empty list, check if the function call with a single-element list would end up calling the base case).
+        - Check the instructions - are the input values supposed to be from a specific range (e.g., non-negative? is 0 included? are letters/strings accepted?)
+    *  <span style="color:red">A missing `return`</span>: Verify that if the function is supposed to **return** its result, then _each branch_ contains the `return` keyword. In the recursive case/branch, it is common to `return` **the result of calling the recursive function** (i.e., the recursive call). 
+
+### Example erroneous code illustrating the above recursion issues
+
+Starting from the first case, we illustrate the potential issues by building on the first example:
+
+* <span style="color:red">No base case</span>
+
+```py
+def fib(n):
+    """
+    param: n (int) - the ordinal value of the Fibonacchi
+           sequence; expected to be > 0.
+    The function recursively computes the n-th Fibonacchi
+    number, starting from the 1st one.
+    returns: the computed Fibonacchi value (int)
+    """
+    # missing a base case here - no `if` branch
+    return fib(n - 1) + fib(n - 2)
+
+if __name__ == "__main__":
+    print(fib(3))
+```
+    
+* <span style="color:red">An invalid base case</span>
+
+```py
+def fib(n):
+    """
+    param: n (int) - the ordinal value of the Fibonacchi
+           sequence; expected to be > 0.
+    The function recursively computes the n-th Fibonacchi
+    number, starting from the 1st one.
+    returns: the computed Fibonacchi value (int)
+    """
+    if n == '1': # incorrect type of the base case
+        return 1
+    return fib(n - 1) + fib(n - 2)
+
+if __name__ == "__main__":
+    print(fib(3))
+```
+
+* <span style="color:red">A missing base case</span>
+
+```py
+def fib(n):
+    """
+    param: n (int) - the ordinal value of the Fibonacchi
+           sequence; expected to be > 0.
+    The function recursively computes the n-th Fibonacchi
+    number, starting from the 1st one.
+    returns: the computed Fibonacchi value (int)
+    """
+    if n == 1: # correct type of the base case
+        return 1 # correct return, correct value, correct type
+    # need another base case, for the 2nd Fibonacchi n
+    return fib(n - 1) + fib(n - 2)
+
+if __name__ == "__main__":
+    print(fib(3))
+```
+
+
+* <span style="color:red">An incorrect recursive call</span>
+
+```py
+def fib(n):
+    """
+    param: n (int) - the ordinal value of the Fibonacchi
+           sequence; expected to be > 0.
+    The function recursively computes the n-th Fibonacchi
+    number, starting from the 1st one.
+    returns: the computed Fibonacchi value (int)
+    """
+    if n == 1:
+        return 1
+    if n == 2:
+        return 1
+    return fib(n) + fib(n - 2) # the first function call doesn't decrement n
+
+if __name__ == "__main__":
+    print(fib(3))
+    print(fib(0)) # also, the function call is not supposed to work for n <= 0
+```
+
+
+* <span style="color:red">A missing `return`</span>
+
+```py
+def fib(n):
+    """
+    param: n (int) - the ordinal value of the Fibonacchi
+           sequence; expected to be > 0.
+    The function recursively computes the n-th Fibonacchi
+    number, starting from the 1st one.
+    returns: the computed Fibonacchi value (int)
+    """
+    if n == 1:
+        print ( 1 ) # missing a correct return
+    if n == 2:
+        print( 1 ) # incorrect return value
+    return fib(n - 1) + fib(n - 2)
+
+if __name__ == "__main__":
+    print(fib(3))
+```
+
+
+[Back to top](#top)
+
+---
+
 
 # Syntax Errors
+
+## `SyntaxError: invalid character in identifier`
+
+*   **Cause**:   Either quotations around the text or some other symbol is not from the standard Latin alphabet used by Python. The error typically occurs when writing code in a text processor (e.g., Word), typing on a mobile device that has autocorrect enabled, or (rarely) when accidentally switching the keyboard language layout.
+
+*   Example erroneous code:
+```py
+print(‘Hello!’) # invalid quotations
+```
+
+
 
 ## `SyntaxError: invalid syntax`
 
@@ -383,19 +530,35 @@ print('Hello, World'))
 
 ### `TypeError: argument of type 'int' is not iterable`
 
+Related error: [`TypeError: 'list' object cannot be interpreted as an integer`](#typeerror-list-object-cannot-be-interpreted-as-an-integer)
+
 * Example erroneous code:
 
 ```py
 total = 42
 sum(total)
+
+# another alternative that would case such error
+for i in total: # `in` requires a range/collection, not an integer
+    print(i)
 ```
 
 *   **Cause**: The error usually occurs when a built-in Python function that is intended for a sequence/collection is applied to an integer instead.
+*   **Check**: Take a look at the line that is causing an error and verify that you are using a proper collection (i.e., a list or a range). 
+
 * Correct code:
 
 ```py
 total = [42]
 sum(total)
+
+for i in total: # `in` requires a range/collection, not an integer
+    print(i)
+
+# alternatively, if `total` needed to stay as an integer
+total = 42
+for i in range(total):
+    print(i)
 ```
 
 [Back to top](#top)
@@ -417,13 +580,16 @@ if "a" in val:
     * Do not store the result of `print()` and attempt to index it. Just like the methods that modify lists directly (since lists are mutable), `print()` does not return anything other than `None`.
 
 * Correct code:
+
 ```py
 val = None
 if val != None:
     if "a" in val:
         print("Found it!")
 ```
+
 or
+
 ```py
 val = "aeou" # correct object provided
 if "a" in val:
@@ -436,17 +602,57 @@ if "a" in val:
 
 ### `TypeError: can only concatenate str (not "int") to str`
 * Example erroneous code:
+
 ```py
 num = 6
 print("I would like " + num + " tacos please.")
 ```
+
 *   **Cause**:  You can only concatenate a string with a string, not a numeric type. Check the types of the variables that you are using in the concatenation.
+
 * Correct code and alternatives: 
+
 ```py
 num = 6
 print("I would like " + str(num) + " tacos please.") # proper string concatenation
 print("I would like", num, "tacos please.") # using print defaults
 print(f"I would like {num} tacos please.") # using f-strings
+```
+
+[Back to top](#top)
+
+---
+
+### `TypeError: 'list' object cannot be interpreted as an integer`
+
+* Example erroneous code:
+
+```py
+total = [42]
+for i in range(total):
+	print(i)
+```
+
+*   **Cause**: The `range()` function requires an **integer argument** but a list is given instead.
+*   **Check**: 
+   * Is the current argument given to the `range()` supposed to be a list? Are you trying to print its _values_? If so, why do you need to use a `range()`, which helps print _indices_?
+   * Do you need to print indices of a list? If so, do you have `len()` of a list as an input to the `range()`?
+   * Do you need to generate a bunch of numbers and you accidentally stored the total as a list, instead of as an integer? 
+
+* Depending on what you need to do, the potential solutions to the above error could be:
+
+```py
+# `total` needs to be an integer, not a list
+total = 42
+for i in range(total):
+	print(i) # prints the numbers from 0 to 42 (value in total)
+
+# or, alternatively
+# `total` stays as a list but
+# the range() needs to be provided a proper integer, e.g., the length of the list
+total = [42]
+for i in range(len(total)):
+	print(i) # prints the indices of the list, which is just 0
 ```
 
 [Back to top](#top)
@@ -499,11 +705,44 @@ len(42, 33)
 ```py
 len([42, 33]) 
 ```
+
+[Back to top](#top)
+
+---
+
+### `TypeError: '...' not supported between instances of '...' and '...'`
+
+Some specific instances of this error:
+* `TypeError: '<=' not supported between instances of 'int' and 'str'`
+* `TypeError: '<' not supported between instances of 'str' and 'int'`
+
+Similar error: `TypeError: unsupported operand type(s) ...`
+
+*   **Causes**: The code is trying to compare incompatible types. The listed types are on the left and ithe right side of the provided operator respectively.
+*   **Check**: Does either or both of the operands need to be converted into a numeric type?
+
+* Erroneous code:
+```py
+my_var = input() 
+if my_var < 5:
+   print(my_var)
+```
+
+* Correct code: 
+
+```py
+my_var = int(input()) 
+if my_var < 5:
+   print(my_var)
+```
+
 [Back to top](#top)
 
 ---
 
 ### `TypeError: unsupported operand type(s) for +: 'int' and 'list'`
+
+Similar error: `TypeError: '...' not supported between instances of 'int' and 'str'`
 
 * Example erroneous code:
 
@@ -512,7 +751,7 @@ nested_list = [[5, 10, 6], [7, 8, 9]]
 total_sum = sum(nested_list)
 ```
 
-*   **Cause**: The error can occur when trying to sum up a nested list, instead of its individual elements.
+*   **Cause**: The error can occur when trying to apply a built-in Python method to an unsupported type, e.g., to sum up a nested list, instead of its individual elements.
 
 * Correct code: 
 
@@ -706,7 +945,7 @@ if __name__ == '__main__':
 ## `Test Failed: Syntax error when importing ...`
 
 * **Cause**: Something in your file is causing a syntax error (could be as simple as incorrect indentation; see the SyntaxError examples listed above). 
-* **Check**: Run your code and examine the line that is causing an error.
+* **Check**: Run your code and examine the line that is causing an error. If you are not getting any syntax errors when running code in your IDE, then verify that you have a correctly-placed `if __name__ == '__main__'` block in your file.
 
 [Back to top](#top)
 
@@ -767,7 +1006,7 @@ In the browser, open up the `PROJECT_REPO_FORK`. (_Note that you need to open **
 
 We attempt to alphabetize the errors, so please add the new entries to their appropriate location in the file. 
 
-    ### `Error: ...`
+    # `Error: ...`
 
     This is a template for the error entries.
 

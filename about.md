@@ -146,6 +146,7 @@ You will be required to submit this form separately for all weeks in which you w
 During the term, you can request **two 1-day extensions** for the weekly deadline of the **zyBook activities** (we can offer extension only for the zyBooks activities, not the quizzes, reflections, etc.). Do not contact us via the forum or the email, just [submit this form to request an extension](https://forms.gle/QQkXMfKswjDbCEi49) and select whether the extension is for the PAs, CAs, and/or LAs.
 * You need to submit this form **within a day of the respective {{ site.due_time }}** deadline.
 * We will not accept retroactive extension requests for previous weeks.
+* The deadline extensions **do not** apply to the **final project**.
 
 If your situation is more serious and requires a longer extension, you need to provide the **official documentation** and complete the steps described in the section below. 
 
