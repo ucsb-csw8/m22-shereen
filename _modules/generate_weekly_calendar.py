@@ -86,7 +86,7 @@ topic = {
 
 ### These notes are replaced with the specifics for each respective week below
 class_time = "09:30am"
-due_time = "10PM"
+due_time = "11:59PM"
 due_dates = {
     "Mon" : f": _Finish reading and review Chapter X in zyBooks._\n" +
             f": _Complete the PAs and CAs._\n" +
