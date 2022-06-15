@@ -14,15 +14,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CSW8 W22 # displayed over the sidebar
+title: CSW8 M22 # displayed over the sidebar
 tagline: CSW 8 - Introduction to Computer Science # Shown as a title on the page
-description: Summer 2022 with XXX
-author: XXX
-baseurl: '/m22-XXX' # the subpath of your site, e.g. /blog
+description: Summer 2022 with Shereen ElSayed
+author: Shereen ElSayed
+baseurl: '/m22-shereen' # the subpath of your site, e.g. /blog
 url: 'https://ucsb-csw8.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
-due_time: "10PM" # also update it in the _modules script
+due_time: "11:59PM" # also update it in the _modules script
 
 # Back to top link
 back_to_top: true
@@ -37,7 +37,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: false # show or hide edit this page link
 gh_edit_link_text: "Edit this page on GitHub."
-gh_edit_repository: "https://github.com/ucsb-csw8/m22-XXX" # the github URL for your repo
+gh_edit_repository: "https://github.com/ucsb-csw8/m22-shereen" # TODO: the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
@@ -65,7 +65,7 @@ aux_links: #TODO - customize for your course or leave them as-is
 aux_links_new_tab: true
 
 nav_footer_content: "Powered by <a href=\"https://github.com/kevinlin1/just-the-class\">Just the Class</a>"
-footer_content: 'XXX &copy; 2022 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>'
+footer_content: 'Shereen ElSayed &copy; 2022 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>'
 
 # Collections for website data
 collections:
