@@ -2,7 +2,7 @@
 layout: page
 title: CSW8 Syllabus
 nav_order: 1
-last_modified_date: 2022-03-28
+last_modified_date: 2022-06-16
 description: >-
     Course policies and information.
 ---
@@ -18,7 +18,7 @@ description: >-
 
 ---
 
-## UCSB CSW 8 (Introduction to Computer Science) Online Syllabus - Spring 2022   
+## UCSB CSW 8 (Introduction to Computer Science) Online Syllabus - Summer 2022   
 
 Introduction to computer program development is for students with little to no programming experience. 
 The course covers basic programming concepts, variables and expressions, data and control structures, algorithms, debugging, program design, testing, and documentation. Note: Programming is concepts + skill, and skill requires <span style="color:green">**practice**</span>.  
@@ -39,11 +39,11 @@ Reminder: You are **not** supposed to be registered for another UCSB course that
 
 ---
 
-**Professor**: Yekaterina Kharitonova  / Prof K (pronouns: she/they)
+**Instructor**: Shereen Elsayed  (pronouns: she/her)
 
 **Course mentors** (TAs / ULAs): see [more info here]({{site.url}}/{{site.baseurl}}/staff); office hours are [linked here]({{site.url}}/{{site.baseurl}}/schedule).
 
-**Class time**: Tuesday and Thursday, 9:30--10:45am PT (Pacific/California time), synchronously on Zoom (the link is posted on Gauchospace)
+**Class time**: Tuesday, Wednesday and Thursday, 9:30--10:45am PT (Pacific/California time), synchronously on Zoom (the link is posted on Gauchospace)
 
 ---
 
@@ -54,7 +54,7 @@ Do not automatically assume that the course is the same as the one that you or y
 
 ### Textbook
 1. Create an account at [zyBooks.com](https://www.zybooks.com),
-2. Purchase a subscription [as described on Gauchospace](https://gauchospace.ucsb.edu/courses/mod/page/view.php?id=1639309). Please read the additional information and notes that are posted there.
+2. Purchase a subscription [as described on Gauchospace](https://gauchospace.ucsb.edu/courses/mod/page/view.php?id=2222500). Please read the additional information and notes that are posted there.
 
 > Make sure to use your <span style="color:red">**7-digit student ID _without_ any dashes or spaces** (ONLY digits)</span>. (⚠️  <span style="color:orange">_You might fail the course if this ID is incorrectly entered._</span>)
 
