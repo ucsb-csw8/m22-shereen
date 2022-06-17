@@ -7,7 +7,7 @@ description: A listing of all the course members.
 
 # Mentors
 
-We - the Teaching Assistants (TAs), Undergraduate Learning Assistants (ULAs) and Prof. K - are what we will collectively refer to as "Mentors". We look forward to helping you learn and succeed in this class and beyond.
+We - the Teaching Assistants (TAs) and Shereen - are what we will collectively refer to as "Mentors". We look forward to helping you learn and succeed in this class and beyond.
 <!--Staff information is stored in the `_staffers` directory and rendered according to the layout file, `_layouts/staffer.html`.-->
 
 ## Instructors

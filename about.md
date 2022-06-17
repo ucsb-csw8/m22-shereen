@@ -85,21 +85,23 @@ You will also submit your work through Google Forms or Qualtrics links - they wi
 For in-class participation, we will be using the [iClicker app](https://macmillan.force.com/iclicker/s/article/Remote-Instruction-iClicker-Cloud-Student-Onboarding-Resources), which is linked on Gauchospace - use that link to create an account or log in and you will automatically be added to the course.
 
 ### Grading
-    5% Participation Activities (PAs): in zyBook
-    15% Challenge Activities (CAs): in zyBook
     25% Lab Activities (LAs): in zyBook
-        5% Checkpoint Lab Activities, lowest 2 dropped
+        5% Checkpoint Lab Activities, lowest 1 dropped
         20% All Lab Activities (LAs)
-    20% Quizzes: 3-6 quizzes, lowest will be dropped
     25% Final Project submitted via Gradescope
+    20% Quizzes: 5 quizzes, lowest will be dropped
+    15% Challenge Activities (CAs): in zyBook
+    8% Course Participation: in-class activities + iClicker
+        4 lowest/missing will be dropped
+    5% Participation Activities (PAs): in zyBook
     2% Weekly reflection; 
        2 lowest/missing will be dropped
-    8% Course Participation: in-class activities + iClicker 
-       4 lowest/missing will be dropped
+     
+       
 
 > Note: **There will be no midterms or final exams.** 
 
-Quizzes will usually be announced during the previous week/class. 
+Quizzes are every Friday from 3pm to 9pm
 
 **iClicker participation** gets full credit if a student responds to 75% of questions asked during the class, rounded up (e.g., if there are 14 questions asked during the class you need to _answer_ 11 of them to get the participation point). Note that you do not need to get them all correct but there might occasionally be extra points for those who get all or almost all correctly answered.
                                          
@@ -116,13 +118,17 @@ This class _has to be taken for a letter grade_. The College of Engineering does
 
 ### Course structure and deadlines
 
-<span style="color:green">Each week covers one chapter in zyBooks</span> (_Week 1 is the exception, the assignments for that week are due along with the assignments for Week 2_). Due each week (always, at <span style="color:green">**the same time**</span>):
+<span style="color:green">Each week covers one chapter in zyBooks</span> (_Week 1 is the exception, the assignments (PA and CA) for that week are <span style="color:green">**BONUS**</span> 1.5% for PAs and 2% CAs. If you exceeded the percentatge for the PA or CA, this exceed will be added to your total_). All due times for PA, CA and Labs are the same for each week (always, at <span style="color:green">**11:59pm**</span>):
 
-> **PA**{: .label .label-orange }(Participation Activities): due **before** the 1st class of the week <span style="color:green">Monday {{ site.due_time }}</span> 
+> **PA**{: .label .label-orange }(Participation Activities): For the **current week** <span style="color:green">Monday {{ site.due_time }}</span> 
 
-> **CA**{: .label .label-blue }(Challenge Activities): due **before** the labs <span style="color:green">Tuesday {{ site.due_time }}</span>
+> **CA**{: .label .label-blue }(Challenge Activities): For the **current week**<span style="color:green">Tuesday {{ site.due_time }}</span>
 
-> **LA**{: .label .label-green }(Lab Activities): on <span style="color:green">Wednesday {{ site.due_time }}</span> (submit them before 9am to focus on the labs for the new week)
+> **LA**{: .label .label-green }(Lab Activities):For the **previous week** <span style="color:green">Thursday {{ site.due_time }}</span>
+
+> **Quiz**{: .label .label-green }(Quiz): <span style="color:green">Friday From 3:00 pm to 9:00 pm</span>
+
+> **Reflections**{: .label .label-green }(Reflections):<span style="color:green">Friday {{ site.due_time }}</span>
 
 Deadlines for all activities are available on Gauchospace (and are listed on the [Calendar]({{site.url}}/{{site.baseurl}}/calendar)). 
 

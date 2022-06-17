@@ -2,35 +2,35 @@
 title: Week 2
 topic: Functions and Modules
 ---
-Jun 27
+Monday - Jun 27
+: **11:59PM** ⏰  Due: **PA02**{: .label .label-orange }
 : _Finish reading and review Chapter 02 in zyBooks._
 : _Complete the PAs and CAs._
 : _Test your understanding with the Reading Quiz._
-   : **11:59PM** ⏰  Due: **PA02**{: .label .label-orange }
 
-Jun 28
-: 09:30am **Class**{: .label .label-purple }
-   : **11:59PM** ⏰  Due: **CA02**{: .label .label-blue }
+Tuesday - Jun 28
+: **09:30am** **Class**{: .label .label-purple }
+: **11:59PM** ⏰  Due: **CA02**{: .label .label-blue }
+: **11:59PM** ⏰  Due: **LA01**{: .label .label-green }
 
-Jun 29
-: 09:30am **Class**{: .label .label-purple }
-: 09:00am **LA01**{: .label .label-green }_are expected to be done_
-   : **11:59PM** ⏰  Due: **LA01**{: .label .label-green }
+Wednesday - Jun 29
+: **09:30am** **Class**{: .label .label-purple }
+: _Start working on the labs_
 
-Jun 30
-: 09:30am **Class**{: .label .label-purple }
-   : **11:59PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
+Thursday - Jun 30
+: **09:30am** **Class**{: .label .label-purple }
+: **11:59PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
 
-Jul 1
+Friday - Jul 1
+: **3:00pm** to **9:00 pm** ⏰ Due: **QUIZ**{: .label .label-darkcyan }
+: **11:59PM** ⏰ Due: **Reflection**{: .label .label-yellow }
 : _Begin reading next week’s chapter._
 : _Work through its PAs and CAs._
-: _Finish the Weekly reflection._
 
-Jul 2
-: _Async activities_ ☝️ 
+Saturday - Jul 2
+: _Read next week's chapter (chapter 3) and start in the PAs and CAs_
 
-Jul 3
+Sunday - Jul 3
 : _By the end of Sunday: Ideally, you should be finished with PAs for Chapter 3 and done with the CAs for its first 4-5 sections._
-   : **11:59PM** ⏰  Due: **Reflection**{: .label .label-yellow }
 
 

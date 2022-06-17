@@ -14,7 +14,7 @@ seo:
 We highly recommend that you follow the advice of the **Essentials of Time Management** section from the [Effective Strategies for Remote Learning](https://keeplearning.id.ucsb.edu/2020/03/22/effective-strategies-for-remote-learning), and create study blocks for this course. Remember to **add them to your calendar** and follow your schedule. See this 6-min ONDAS video on [How to Use Your Google Calendar](https://www.youtube.com/watch?v=daPu_IpIDl8).
 
 A typical course expects that you will engage with the course material about 3-4 hours for per unit each week. Since this course is 4 units, you should expect to spend about 12-16 hours per week working on this course. Here's the rough weekly breakdown of where your time might go:
-* 3 hours of class time
+* 5 hours of class time
 * 1-2 hours reviewing course concepts / practice (it's crucial to ensure that you are following along and catch unclear concepts early); best to schedule the review right after the class or on the same day as the class, so that you can write down the questions while the content is still fresh.
 * 2-4 hours reading the book and working on participation/homework activities, preparing for quizzes; we recommend adding these review/study blocks to your calendar and treating them as an appointment.
 * 1 hour of scheduled lab to work with mentors and/or your lab partner
@@ -41,15 +41,15 @@ All due times in our class are at **{{ site.due_time }} Pacific time**. Add the 
 
 | Day | Due | Recommended Activity |
 |---|-----|----------------------|
-| Mon | {{ site.due_time }}: PAs | **Async activity**: Read the book, and work on/finish PA in zybooks _before_ the first class meeting of the week; prepare/review the questions to ask. |
-| Tue | {{ site.due_time }}: CAs | **Class 1**: Synchronous activities. Join the class via Zoom and be prepared to ask questions or ask for clarifications and additional examples, and to work with your classmates. |
-|     |     | **Async activity**: Work on/finish related CAs and LAs _before_ the lab on Wed. |
-| Wed | {{ site.due_time }}: LAs | **Guided tutoring lab sessions**: in small groups, students work on the LA (starting and/or finishing), resolving any lingering questions, reviewing materials with mentors. Students have until _next week_ to finish/submit the LA. |
-|     |     | **Async activity**: Work on/finish related CA and LA in zybooks |
+| Mon | {{ site.due_time }}: PAs | **Async activity**: Read the book, and work on/finish PA in zybooks _before_ the first class meeting of the week; prepare/review the questions to ask. for the PAs and the CAs |
+| Tue | {{ site.due_time }}: CAs | **Async activity**: Finish the CAs and submit them. There are office hours on Monday and Tuesday to help you. In addition to the lectures |
+| Wed |     | **Async activity**: Work on/finish  LAs _before_ the lab on Thursday. |
 | Thu | {{ site.due_time }}: LA Checkpt    | **Class 2**: Synchronous activities. Join the class via Zoom and ask questions or ask for clarifications and additional examples and/or review the quiz questions. Be prepared to work with your classmates. |
-|     |     | **Async activity**: Review concepts, work on/finish related CA and LA |
-| Sat |     | **Async activity**: Finish the Weekly reflection - review the past week, reflect on your learning, provide feedback, note any lingering questions. |
-| Sun | {{ site.due_time }}: Reflection | **Async activity**: Read the book, review concepts, and work on/finish PA, CA, and LA |
+|     |     | **Async activity**: Work on/finish related  LA in zybooks |
+| Thu | {{ site.due_time }}: |
+| Fri | 3 pm to 9 pm | Weekly Quiz, it is usually 30 min. so plan ahead. Submit the weekly reflection|
+| Sat|     | **Async activity**: Review concepts, read the next chapter in zybook and start working in the PAs and CAs|
+| Sun |     | **Async activity**: Continue working on the PAs and the CAs and prepare your questions for the next week. Finalize your lab work from the previous week.
 
 
 ✨ Pro Tip✨ : _**Do not try to complete all chapter sections in one sitting**_! We recommend spending **no more than 2 hours** in a row reading through the sections and completing the activities in zyBooks. Your brain will get tired and will need a break. Trust us: even your prof cannot meaningfully work through this material for more than 2 hours, so save yourself some time and allow for at least a 30-minute break between the study sessions. 

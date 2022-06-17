@@ -2,35 +2,34 @@
 title: Week 4
 topic: Repeating and iterating (Loops)
 ---
-Jul 11
+Monday - Jul 11
+: **11:59PM** ⏰  Due: **PA04**{: .label .label-orange }
 : _Finish reading and review Chapter 04 in zyBooks._
 : _Complete the PAs and CAs._
 : _Test your understanding with the Reading Quiz._
-   : **11:59PM** ⏰  Due: **PA04**{: .label .label-orange }
 
-Jul 12
-: 09:30am **Class**{: .label .label-purple }
-   : **11:59PM** ⏰  Due: **CA04**{: .label .label-blue }
+Tuesday - Jul 12
+: **09:30am** **Class**{: .label .label-purple }
+: **11:59PM** ⏰  Due: **CA04**{: .label .label-blue }
+: **11:59PM** ⏰  Due:**LA03**{: .label .label-green }
 
-Jul 13
-: 09:30am **Class**{: .label .label-purple }
-: 09:00am **LA03**{: .label .label-green }_are expected to be done_
-   : **11:59PM** ⏰  Due: **LA03**{: .label .label-green }
+Wednesday - Jul 13
+: **09:30am** **Class**{: .label .label-purple }
+: _Start working on the labs_
 
-Jul 14
-: 09:30am **Class**{: .label .label-purple }
-   : **11:59PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
+Thursday - Jul 14
+: **09:30am** **Class**{: .label .label-purple }
+: **11:59PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
 
-Jul 15
+Friday - Jul 15
+: **3:00pm** to **9:00 pm** ⏰ Due: **QUIZ**{: .label .label-darkcyan }
+: **11:59PM** ⏰ Due: **Reflection**{: .label .label-yellow }
 : _Begin reading next week’s chapter._
 : _Work through its PAs and CAs._
-: _Finish the Weekly reflection._
 
-Jul 16
-: _Async activities_ ☝️ 
+Saturday - Jul 16
+: _Read next week's chapter (chapter 5) and start in the PAs and CAs_
 
-Jul 17
+Sunday - Jul 17
 : _By the end of Sunday: Ideally, you should be finished with PAs for Chapter 5 and done with the CAs for its first 4-5 sections._
-   : **11:59PM** ⏰  Due: **Reflection**{: .label .label-yellow }
-
 

@@ -48,7 +48,7 @@ Please see the answer above and the ["Attendance"](#attendance) section below fo
 
 ### Do labs happen during the section time?
 
-Yes, the **Wednesday** section time that you are enrolled in is the lab time.
+Yes, the **Thursday** section time that you are enrolled in is the lab time. You will need to submit the Checkpoint lab and pass at least 1 test on Thursday at 11:59 pm to get the participation point. However, you still need to complete and pass all tests in the checkpoint labs before the labs' due date on **Tuesday** 11:59 pm for the next week.
 
 
 ### How do we check when our lab is?
@@ -70,7 +70,7 @@ See the ["Attendance"](#attendance) section below for more information.
 
 ### Are lab activities and lab sessions not the same thing?
 
-We refer to the Wednesday lab section times as _lab sessions_. The _lab activities_ (LAs) that you complete in zyBooks are different from the session times - they refer to the lab assignments posted in zyBooks.
+We refer to the Thursday lab section times as _lab sessions_. The _lab activities_ (LAs) that you complete in zyBooks are different from the session times - they refer to the lab assignments posted in zyBooks.
 
 
 ### What is the "Lab Checkpoint" score in gradebook?
@@ -195,7 +195,7 @@ If you have multiple accounts on Piazza with different email addresses, you can 
 * select “[Account/Email Settings](https://piazza.com/account_settings)”
 * add your email under “Other emails”.
 
-_Note: As was mentioned in the Welcome Email sent from Gauchospace ("Spring into action with CSW 8 (S22)!"), you will receive an email about being added to Piazza on **Tuesday evening**, after the first lecture, once we close the waitlist._
+_Note: As was mentioned in the Welcome Email sent from Gauchospace ("Summer into action with CSW 8 (M22)!"), you will receive an email about being added to Piazza on **Tuesday evening**, after the first lecture, once we close the waitlist._
 
 
 ### I do not see the "CSW 8" course on Gradescope and/or Piazza. What can I do?
@@ -298,7 +298,7 @@ This course has a consistent weekly pattern to help you manage your workload and
 Set those dates and reminders on your calendar to proactively keep track of the assignments yourself.
 See additional information and resources that we provided on the [How to Succeed in CSW 8]({{site.url}}/{{site.baseurl}}/about) page. 
 
-Mondays, Tuesdays and Wednesdays are when the zyBooks activities are due (**hard deadlines**) and are expected to be completed. 
+Mondays, Tuesdays and Thursday are when the zyBooks activities are due (**hard deadlines**) and are expected to be completed. 
 We recommend finishing your work in zyBooks **_before_** those times (e.g., try to finish everything the night before it is due, so that you have enough time to ask for help). 
 
 In-class quizzes and activities will assume that you have completed the materials. 
@@ -308,7 +308,7 @@ The extension is there to give you a chance to finish up the activity or two; it
 
 We cannot stress enough how important it is to create a study plan for this class and to follow it consistently.
 
-Around Week 3-4, material will begin to pick up its pace and concepts will begin to get more involved, so you need to make sure that you've allocated enough time slots in your schedule to ensure that you can keep up with the course. 
+Around Week 2, material will begin to pick up its pace and concepts will begin to get more involved, so you need to make sure that you've allocated enough time slots in your schedule to ensure that you can keep up with the course. 
 
 
 ### Quizzes
@@ -358,7 +358,7 @@ Below are the main ways for you to ask for help (from fastest to slowest respons
 
 * class time and lab sessions are the dedicated synchronous times when you can (and should!) ask questions.
 
-* Prof. K can stay right after class and can also meet with you by appointment: you can book a meeting through a link posted on the office hours page or send a message to the **Instructors** on the forum, requesting to meet at a specific time. 
+* Shereen can stay right after class and can also meet with you by appointment: you can book a meeting through a link posted on the office hours page or send a message to the **Instructors** on the forum, requesting to meet at a specific time. 
 
 * we have [synchronous Zoom office hours]({{site.url}}{{site.baseurl}}/schedule) _every day Monday through Friday in the mornings, afternoons, and evenings_. 
 
