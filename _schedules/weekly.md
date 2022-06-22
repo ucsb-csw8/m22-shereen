@@ -92,7 +92,7 @@ schedule:
     events:
       - name: Office Hours
         start: 10:00 AM
-        end: 12:00 PM
+        end: 1:00 PM
         location: Kevin Heffernan
   
 ---
