@@ -3,13 +3,16 @@ title: Week 2
 topic: Functions and Modules
 ---
 Monday<br/>Jun 27
+: **11:59PM** ⏰  Due: **BONUS - PA01**{: .label .label-orange }
 : **11:59PM** ⏰  Due: **PA02**{: .label .label-orange }
+
 : _Finish reading and review Chapter 02 in zyBooks._
 : _Complete the PAs and CAs._
 : _Test your understanding with the Reading Quiz._
 
 Tuesday<br/>Jun 28
 : **09:30am** **Class**{: .label .label-purple }
+: **11:59PM** ⏰  Due: **BONUS - CA01**{: .label .label-blue }
 : **11:59PM** ⏰  Due: **CA02**{: .label .label-blue }
 : **11:59PM** ⏰  Due: **LA01**{: .label .label-green }
 
