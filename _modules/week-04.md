@@ -19,7 +19,6 @@ Wednesday<br/>Jul 13
 
 Thursday<br/>Jul 14
 : **09:30am** **Class**{: .label .label-purple }
-: **11:59PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
 
 Friday<br/>Jul 15
 : **3:00pm** to **9:00 pm** ⏰ Due: **QUIZ**{: .label .label-darkcyan }

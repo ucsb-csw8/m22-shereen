@@ -86,8 +86,6 @@ For in-class participation, we will be using the [iClicker app](https://macmilla
 
 ### Grading
     25% Lab Activities (LAs): in zyBook
-        5% Checkpoint Lab Activities, lowest 1 dropped
-        20% All Lab Activities (LAs)
     25% Final Project submitted via Gradescope
     20% Quizzes: 5 quizzes, lowest will be dropped
     15% Challenge Activities (CAs): in zyBook
@@ -124,7 +122,7 @@ This class _has to be taken for a letter grade_. The College of Engineering does
 
 > **CA**{: .label .label-blue }(Challenge Activities): For the **current week**<span style="color:green">Tuesday {{ site.due_time }}</span>
 
-> **LA**{: .label .label-green }(Lab Activities):For the **previous week** <span style="color:green">Thursday {{ site.due_time }}</span>
+> **LA**{: .label .label-green }(Lab Activities):For the **previous week** <span style="color:green">Tuesday {{ site.due_time }}</span>
 
 > **Quiz**{: .label .label-green }(Quiz): <span style="color:green">Friday From 3:00 pm to 9:00 pm</span>
 

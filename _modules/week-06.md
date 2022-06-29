@@ -19,7 +19,7 @@ Wednesday<br/>Jul 27
 
 Thursday<br/>Jul 28
 : **09:30am** **Class**{: .label .label-purple }
-: **11:59PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
+: **11:59PM** ⏰  Due: **LA06**{: .label .label-green }
 
 Friday<br/>Jul 29
 : <p class="text-grey-dk-000 mb-0"><em>Instruction Ends (Session A)</em></p>

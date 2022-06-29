@@ -42,12 +42,11 @@ All due times in our class are at **{{ site.due_time }} Pacific time**. Add the 
 | Day | Due | Recommended Activity |
 |---|-----|----------------------|
 | Mon | {{ site.due_time }}: PAs | **Async activity**: Read the book, and work on/finish PA in zybooks _before_ the first class meeting of the week; prepare/review the questions to ask. for the PAs and the CAs |
-| Tue | {{ site.due_time }}: CAs | **Async activity**: Finish the CAs and submit them. There are office hours on Monday and Tuesday to help you. In addition to the lectures |
-| Wed |     | **Async activity**: Work on/finish  LAs _before_ the lab on Thursday. |
-| Thu | {{ site.due_time }}: LA Checkpt    | **Class 2**: Synchronous activities. Join the class via Zoom and ask questions or ask for clarifications and additional examples and/or review the quiz questions. Be prepared to work with your classmates. |
+| Tue | {{ site.due_time }}: CAs (current week) and LA (previous week) | **Class 1** - **Async activity**: Finish the CAs and submit them. There are office hours on Monday and Tuesday to help you. In addition to the lectures |
+| Wed |     | **Class 2** - **Async activity**: Work on/finish  LAs _before_ the lab on Thursday. |
+| Thu |     | **Class 3**: Synchronous activities. Join the class via Zoom and ask questions or ask for clarifications and additional examples and/or review the quiz questions. Be prepared to work with your classmates. |
 |     |     | **Async activity**: Work on/finish related  LA in zybooks |
-| Thu | {{ site.due_time }}: |
-| Fri | 3 pm to 9 pm | Weekly Quiz, it is usually 30 min. so plan ahead. Submit the weekly reflection|
+| Fri | 3 pm to 9 pm | Weekly Quiz, it is usually 30 min. so plan ahead. {{ site.due_time }} Submit the weekly reflection|
 | Sat|     | **Async activity**: Review concepts, read the next chapter in zybook and start working in the PAs and CAs|
 | Sun |     | **Async activity**: Continue working on the PAs and the CAs and prepare your questions for the next week. Finalize your lab work from the previous week.
 

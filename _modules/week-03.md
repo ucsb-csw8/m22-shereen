@@ -23,7 +23,6 @@ Thursday<br/>Jul 7
 : <p class="text-grey-dk-000 mb-0"><em>Deadline to Drop Courses (Session A)</em></p>
 
 : **09:30am** **Class**{: .label .label-purple }
-: **11:59PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
 
 
 Friday<br/>Jul 8

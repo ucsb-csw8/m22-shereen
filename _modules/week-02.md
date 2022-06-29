@@ -14,7 +14,6 @@ Tuesday<br/>Jun 28
 : **09:30am** **Class**{: .label .label-purple }
 : **11:59PM** ⏰  Due: **BONUS - CA01**{: .label .label-blue }
 : **11:59PM** ⏰  Due: **CA02**{: .label .label-blue }
-: **11:59PM** ⏰  Due: **LA01**{: .label .label-green }
 
 Wednesday<br/>Jun 29
 : **09:30am** **Class**{: .label .label-purple }
@@ -22,7 +21,7 @@ Wednesday<br/>Jun 29
 
 Thursday<br/>Jun 30
 : **09:30am** **Class**{: .label .label-purple }
-: **11:59PM** ⏰  Due: **LA Checkpoint**{: .label .label-green }
+: **11:59PM** ⏰  Due: **LA01**{: .label .label-green }
 
 Friday<br/>Jul 1
 : **3:00pm** to **9:00 pm** ⏰ Due: **QUIZ**{: .label .label-darkcyan }
