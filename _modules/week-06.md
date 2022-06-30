@@ -12,19 +12,21 @@ Tuesday<br/>Jul 26
 : **09:30am** **Class**{: .label .label-purple }
 : **11:59PM** ⏰  Due: **CA06**{: .label .label-blue }
 : **11:59PM** ⏰  Due: **LA05**{: .label .label-green }
+: _Note that labs of week 5 and 6 are going to be a couple of labs_
 
 Wednesday<br/>Jul 27
 : **09:30am** **Class**{: .label .label-purple }
-: **11:59PM** ⏰  Due: **LA05**{: .label .label-green }
+: **11:59PM** ⏰  Due: **LA06**{: .label .label-green }
 
 Thursday<br/>Jul 28
 : **09:30am** **Class**{: .label .label-purple }
-: **11:59PM** ⏰  Due: **LA06**{: .label .label-green }
+: **11:59PM** ⏰  Due: **Final Project**{: .label .label-red }
+
 
 Friday<br/>Jul 29
 : <p class="text-grey-dk-000 mb-0"><em>Instruction Ends (Session A)</em></p>
 
-: **11:59PM** ⏰  Due: **Final Project**{: .label .label-red }
+
 
 Saturday<br/>Jul 30
 
