@@ -45,6 +45,10 @@ schedule:
         end: 12:00 PM
         location: Shereen Elsayed
       - name: Office Hours
+        start: 12:30 AM
+        end: 1:30 PM
+        location: Kevin Heffernan
+      - name: Office Hours
         start: 5:00 PM
         end: 6:00 PM
         location: Saikumar
